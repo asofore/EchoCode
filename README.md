@@ -1,4 +1,4 @@
-EchoCode is a lightweight, high-performance code editor designed for developers who value speed and efficiency. It bridges the gap between a basic text editor and a heavy IDE, providing a distraction-free environment for writing, editing, and managing code on the go.
+EchoCode is a simple code editer and lightweight, high-performance code editor designed for developers who value speed and efficiency. It bridges the gap between a basic text editor and a heavy IDE, providing a distraction-free environment for writing, editing, and managing code on the go.
 
 Built with a focus on low-latency input and a clean user interface, EchoCode allows you to handle multiple programming languages with ease. Whether you are drafting a quick Python script, editing a C++ header, or reviewing Java source code, EchoCode delivers a smooth and responsive experience.
 
