@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/op_1"
+        android:title="Go to line" />
+    <item
+        android:id="@+id/op_2"
+        android:title="Text color">
+
+        <menu>
+            <item
+                android:id="@+id/color_red"
+                android:title="Red" />
+            <item
+                android:id="@+id/color_blue"
+                android:title="Blue" />
+            <item
+                android:id="@+id/color_green"
+                android:title="Green" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/op_size"
+        android:title="Text size">
+
+        <menu>
+            <item
+                android:id="@+id/size_14"
+                android:title="14" />
+            <item
+                android:id="@+id/size_16"
+                android:title="16" />
+            <item
+                android:id="@+id/size_18"
+                android:title="18" />
+            <item
+                android:id="@+id/size_20"
+                android:title="20" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/op_3"
+        android:title="About" />
+    <item
+        android:id="@+id/op_4"
+        android:title="Exit" />
+
+</menu>

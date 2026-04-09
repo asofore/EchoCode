@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:background="@android:color/holo_blue_dark"
+        android:gravity="start|center"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <ImageButton
+            android:id="@+id/main_menu"
+            android:background="@android:color/holo_blue_dark"
+            android:src="@drawable/menu_vertical"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+        <ImageButton
+            android:id="@+id/folder"
+            android:background="@android:color/holo_blue_dark"
+            android:src="@drawable/folder"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+        <TextView
+            android:text="New"
+            android:id="@+id/titles"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <com.codo.echocode.EditerView
+        android:id="@+id/editor_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+</LinearLayout>
